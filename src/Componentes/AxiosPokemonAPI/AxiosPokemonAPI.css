@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    min-width: 100px;
+    text-transform: capitalize;
+    margin: 5px 20px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: cadetblue;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
